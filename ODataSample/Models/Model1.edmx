@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="a1.db.RTModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="ODataSample1">
+          <Key>
+            <PropertyRef Name="ODataSample1Id" />
+          </Key>
+          <Property Name="ODataSample1Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Column1" Type="nvarchar(max)" />
+          <Property Name="Column2" Type="nvarchar(max)" />
+          <Property Name="Column3" Type="nvarchar(max)" />
+          <Property Name="Column4" Type="nvarchar(max)" />
+          <Property Name="Column5" Type="nvarchar(max)" />
+          <Property Name="Column6" Type="nvarchar(max)" />
+          <Property Name="Column7" Type="nvarchar(max)" />
+          <Property Name="Column8" Type="nvarchar(max)" />
+          <Property Name="Column9" Type="nvarchar(max)" />
+          <Property Name="Column10" Type="nvarchar(max)" />
+          <Property Name="Column11" Type="nvarchar(max)" />
+          <Property Name="Column12" Type="nvarchar(max)" />
+          <Property Name="Column13" Type="nvarchar(max)" />
+          <Property Name="Column14" Type="nvarchar(max)" />
+          <Property Name="Column15" Type="nvarchar(max)" />
+          <Property Name="Column16" Type="nvarchar(max)" />
+          <Property Name="Column17" Type="nvarchar(max)" />
+          <Property Name="Column18" Type="nvarchar(max)" />
+          <Property Name="Column19" Type="nvarchar(max)" />
+          <Property Name="Column20" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="ODataSample2">
+          <Key>
+            <PropertyRef Name="ODataSample2Id" />
+          </Key>
+          <Property Name="ODataSample2Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Column1" Type="nvarchar(max)" />
+          <Property Name="Column2" Type="nvarchar(max)" />
+          <Property Name="Column3" Type="nvarchar(max)" />
+          <Property Name="Column4" Type="nvarchar(max)" />
+          <Property Name="Column5" Type="nvarchar(max)" />
+          <Property Name="Column6" Type="nvarchar(max)" />
+          <Property Name="Column7" Type="nvarchar(max)" />
+          <Property Name="Column8" Type="nvarchar(max)" />
+          <Property Name="Column9" Type="nvarchar(max)" />
+          <Property Name="Column10" Type="nvarchar(max)" />
+          <Property Name="Column11" Type="nvarchar(max)" />
+          <Property Name="Column12" Type="nvarchar(max)" />
+          <Property Name="Column13" Type="nvarchar(max)" />
+          <Property Name="Column14" Type="nvarchar(max)" />
+          <Property Name="Column15" Type="nvarchar(max)" />
+          <Property Name="Column16" Type="nvarchar(max)" />
+          <Property Name="Column17" Type="nvarchar(max)" />
+          <Property Name="Column18" Type="nvarchar(max)" />
+          <Property Name="Column19" Type="nvarchar(max)" />
+          <Property Name="Column20" Type="nvarchar(max)" />
+          <Property Name="ODataSample1Id" Type="int" />
+        </EntityType>
+        <EntityType Name="ODataSample3">
+          <Key>
+            <PropertyRef Name="ODataSample3Id" />
+          </Key>
+          <Property Name="ODataSample3Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Column1" Type="nvarchar(max)" />
+          <Property Name="Column2" Type="nvarchar(max)" />
+          <Property Name="Column3" Type="nvarchar(max)" />
+          <Property Name="Column4" Type="nvarchar(max)" />
+          <Property Name="Column5" Type="nvarchar(max)" />
+          <Property Name="Column6" Type="nvarchar(max)" />
+          <Property Name="Column7" Type="nvarchar(max)" />
+          <Property Name="Column8" Type="nvarchar(max)" />
+          <Property Name="Column9" Type="nvarchar(max)" />
+          <Property Name="Column10" Type="nvarchar(max)" />
+          <Property Name="Column11" Type="nvarchar(max)" />
+          <Property Name="Column12" Type="nvarchar(max)" />
+          <Property Name="Column13" Type="nvarchar(max)" />
+          <Property Name="Column14" Type="nvarchar(max)" />
+          <Property Name="Column15" Type="nvarchar(max)" />
+          <Property Name="Column16" Type="nvarchar(max)" />
+          <Property Name="Column17" Type="nvarchar(max)" />
+          <Property Name="Column18" Type="nvarchar(max)" />
+          <Property Name="Column19" Type="nvarchar(max)" />
+          <Property Name="Column20" Type="nvarchar(max)" />
+          <Property Name="ODataSample2Id" Type="int" />
+        </EntityType>
+        <EntityType Name="ODataSample4">
+          <Key>
+            <PropertyRef Name="ODataSample4Id" />
+          </Key>
+          <Property Name="ODataSample4Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Column1" Type="nvarchar(max)" />
+          <Property Name="Column2" Type="nvarchar(max)" />
+          <Property Name="Column3" Type="nvarchar(max)" />
+          <Property Name="Column4" Type="nvarchar(max)" />
+          <Property Name="Column5" Type="nvarchar(max)" />
+          <Property Name="Column6" Type="nvarchar(max)" />
+          <Property Name="Column7" Type="nvarchar(max)" />
+          <Property Name="Column8" Type="nvarchar(max)" />
+          <Property Name="Column9" Type="nvarchar(max)" />
+          <Property Name="Column10" Type="nvarchar(max)" />
+          <Property Name="Column11" Type="nvarchar(max)" />
+          <Property Name="Column12" Type="nvarchar(max)" />
+          <Property Name="Column13" Type="nvarchar(max)" />
+          <Property Name="Column14" Type="nvarchar(max)" />
+          <Property Name="Column15" Type="nvarchar(max)" />
+          <Property Name="Column16" Type="nvarchar(max)" />
+          <Property Name="Column17" Type="nvarchar(max)" />
+          <Property Name="Column18" Type="nvarchar(max)" />
+          <Property Name="Column19" Type="nvarchar(max)" />
+          <Property Name="Column20" Type="nvarchar(max)" />
+          <Property Name="ODataSample3Id" Type="int" />
+        </EntityType>
+        <Association Name="FK_dbo_ODataSample2_dbo_ODataSample1_ODataSample1Id">
+          <End Role="ODataSample1" Type="Self.ODataSample1" Multiplicity="0..1" />
+          <End Role="ODataSample2" Type="Self.ODataSample2" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ODataSample1">
+              <PropertyRef Name="ODataSample1Id" />
+            </Principal>
+            <Dependent Role="ODataSample2">
+              <PropertyRef Name="ODataSample1Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_ODataSample3_dbo_ODataSample2_ODataSample2Id">
+          <End Role="ODataSample2" Type="Self.ODataSample2" Multiplicity="0..1" />
+          <End Role="ODataSample3" Type="Self.ODataSample3" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ODataSample2">
+              <PropertyRef Name="ODataSample2Id" />
+            </Principal>
+            <Dependent Role="ODataSample3">
+              <PropertyRef Name="ODataSample2Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_ODataSample4_dbo_ODataSample3_ODataSample3Id">
+          <End Role="ODataSample3" Type="Self.ODataSample3" Multiplicity="0..1" />
+          <End Role="ODataSample4" Type="Self.ODataSample4" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ODataSample3">
+              <PropertyRef Name="ODataSample3Id" />
+            </Principal>
+            <Dependent Role="ODataSample4">
+              <PropertyRef Name="ODataSample3Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="a1dbRTModelStoreContainer">
+          <EntitySet Name="ODataSample1" EntityType="Self.ODataSample1" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ODataSample2" EntityType="Self.ODataSample2" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ODataSample3" EntityType="Self.ODataSample3" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ODataSample4" EntityType="Self.ODataSample4" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_dbo_ODataSample2_dbo_ODataSample1_ODataSample1Id" Association="Self.FK_dbo_ODataSample2_dbo_ODataSample1_ODataSample1Id">
+            <End Role="ODataSample1" EntitySet="ODataSample1" />
+            <End Role="ODataSample2" EntitySet="ODataSample2" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_ODataSample3_dbo_ODataSample2_ODataSample2Id" Association="Self.FK_dbo_ODataSample3_dbo_ODataSample2_ODataSample2Id">
+            <End Role="ODataSample2" EntitySet="ODataSample2" />
+            <End Role="ODataSample3" EntitySet="ODataSample3" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_ODataSample4_dbo_ODataSample3_ODataSample3Id" Association="Self.FK_dbo_ODataSample4_dbo_ODataSample3_ODataSample3Id">
+            <End Role="ODataSample3" EntitySet="ODataSample3" />
+            <End Role="ODataSample4" EntitySet="ODataSample4" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="a1.db.RTModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="ODataSample1">
+          <Key>
+            <PropertyRef Name="ODataSample1Id" />
+          </Key>
+          <Property Name="ODataSample1Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Column1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column2" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column3" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column4" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column5" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column6" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column7" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column8" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column9" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column10" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column11" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column12" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column13" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column14" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column15" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column16" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column17" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column18" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column19" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column20" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="ODataSample2" Relationship="Self.FK_dbo_ODataSample2_dbo_ODataSample1_ODataSample1Id" FromRole="ODataSample1" ToRole="ODataSample2" />
+        </EntityType>
+        <EntityType Name="ODataSample2">
+          <Key>
+            <PropertyRef Name="ODataSample2Id" />
+          </Key>
+          <Property Name="ODataSample2Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Column1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column2" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column3" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column4" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column5" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column6" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column7" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column8" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column9" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column10" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column11" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column12" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column13" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column14" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column15" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column16" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column17" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column18" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column19" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column20" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ODataSample1Id" Type="Int32" />
+          <NavigationProperty Name="ODataSample1" Relationship="Self.FK_dbo_ODataSample2_dbo_ODataSample1_ODataSample1Id" FromRole="ODataSample2" ToRole="ODataSample1" />
+          <NavigationProperty Name="ODataSample3" Relationship="Self.FK_dbo_ODataSample3_dbo_ODataSample2_ODataSample2Id" FromRole="ODataSample2" ToRole="ODataSample3" />
+        </EntityType>
+        <EntityType Name="ODataSample3">
+          <Key>
+            <PropertyRef Name="ODataSample3Id" />
+          </Key>
+          <Property Name="ODataSample3Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Column1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column2" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column3" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column4" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column5" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column6" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column7" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column8" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column9" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column10" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column11" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column12" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column13" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column14" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column15" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column16" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column17" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column18" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column19" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column20" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ODataSample2Id" Type="Int32" />
+          <NavigationProperty Name="ODataSample2" Relationship="Self.FK_dbo_ODataSample3_dbo_ODataSample2_ODataSample2Id" FromRole="ODataSample3" ToRole="ODataSample2" />
+          <NavigationProperty Name="ODataSample4" Relationship="Self.FK_dbo_ODataSample4_dbo_ODataSample3_ODataSample3Id" FromRole="ODataSample3" ToRole="ODataSample4" />
+        </EntityType>
+        <EntityType Name="ODataSample4">
+          <Key>
+            <PropertyRef Name="ODataSample4Id" />
+          </Key>
+          <Property Name="ODataSample4Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Column1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column2" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column3" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column4" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column5" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column6" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column7" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column8" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column9" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column10" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column11" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column12" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column13" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column14" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column15" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column16" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column17" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column18" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column19" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Column20" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ODataSample3Id" Type="Int32" />
+          <NavigationProperty Name="ODataSample3" Relationship="Self.FK_dbo_ODataSample4_dbo_ODataSample3_ODataSample3Id" FromRole="ODataSample4" ToRole="ODataSample3" />
+        </EntityType>
+        <Association Name="FK_dbo_ODataSample2_dbo_ODataSample1_ODataSample1Id">
+          <End Role="ODataSample1" Type="Self.ODataSample1" Multiplicity="0..1" />
+          <End Role="ODataSample2" Type="Self.ODataSample2" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ODataSample1">
+              <PropertyRef Name="ODataSample1Id" />
+            </Principal>
+            <Dependent Role="ODataSample2">
+              <PropertyRef Name="ODataSample1Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_ODataSample3_dbo_ODataSample2_ODataSample2Id">
+          <End Role="ODataSample2" Type="Self.ODataSample2" Multiplicity="0..1" />
+          <End Role="ODataSample3" Type="Self.ODataSample3" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ODataSample2">
+              <PropertyRef Name="ODataSample2Id" />
+            </Principal>
+            <Dependent Role="ODataSample3">
+              <PropertyRef Name="ODataSample2Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_ODataSample4_dbo_ODataSample3_ODataSample3Id">
+          <End Role="ODataSample3" Type="Self.ODataSample3" Multiplicity="0..1" />
+          <End Role="ODataSample4" Type="Self.ODataSample4" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ODataSample3">
+              <PropertyRef Name="ODataSample3Id" />
+            </Principal>
+            <Dependent Role="ODataSample4">
+              <PropertyRef Name="ODataSample3Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="ODataSample1" EntityType="Self.ODataSample1" />
+          <EntitySet Name="ODataSample2" EntityType="Self.ODataSample2" />
+          <EntitySet Name="ODataSample3" EntityType="Self.ODataSample3" />
+          <EntitySet Name="ODataSample4" EntityType="Self.ODataSample4" />
+          <AssociationSet Name="FK_dbo_ODataSample2_dbo_ODataSample1_ODataSample1Id" Association="Self.FK_dbo_ODataSample2_dbo_ODataSample1_ODataSample1Id">
+            <End Role="ODataSample1" EntitySet="ODataSample1" />
+            <End Role="ODataSample2" EntitySet="ODataSample2" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_ODataSample3_dbo_ODataSample2_ODataSample2Id" Association="Self.FK_dbo_ODataSample3_dbo_ODataSample2_ODataSample2Id">
+            <End Role="ODataSample2" EntitySet="ODataSample2" />
+            <End Role="ODataSample3" EntitySet="ODataSample3" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_ODataSample4_dbo_ODataSample3_ODataSample3Id" Association="Self.FK_dbo_ODataSample4_dbo_ODataSample3_ODataSample3Id">
+            <End Role="ODataSample3" EntitySet="ODataSample3" />
+            <End Role="ODataSample4" EntitySet="ODataSample4" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="a1dbRTModelStoreContainer" CdmEntityContainer="Entities">
+          <EntitySetMapping Name="ODataSample1">
+            <EntityTypeMapping TypeName="a1.db.RTModel.ODataSample1">
+              <MappingFragment StoreEntitySet="ODataSample1">
+                <ScalarProperty Name="ODataSample1Id" ColumnName="ODataSample1Id" />
+                <ScalarProperty Name="Column1" ColumnName="Column1" />
+                <ScalarProperty Name="Column2" ColumnName="Column2" />
+                <ScalarProperty Name="Column3" ColumnName="Column3" />
+                <ScalarProperty Name="Column4" ColumnName="Column4" />
+                <ScalarProperty Name="Column5" ColumnName="Column5" />
+                <ScalarProperty Name="Column6" ColumnName="Column6" />
+                <ScalarProperty Name="Column7" ColumnName="Column7" />
+                <ScalarProperty Name="Column8" ColumnName="Column8" />
+                <ScalarProperty Name="Column9" ColumnName="Column9" />
+                <ScalarProperty Name="Column10" ColumnName="Column10" />
+                <ScalarProperty Name="Column11" ColumnName="Column11" />
+                <ScalarProperty Name="Column12" ColumnName="Column12" />
+                <ScalarProperty Name="Column13" ColumnName="Column13" />
+                <ScalarProperty Name="Column14" ColumnName="Column14" />
+                <ScalarProperty Name="Column15" ColumnName="Column15" />
+                <ScalarProperty Name="Column16" ColumnName="Column16" />
+                <ScalarProperty Name="Column17" ColumnName="Column17" />
+                <ScalarProperty Name="Column18" ColumnName="Column18" />
+                <ScalarProperty Name="Column19" ColumnName="Column19" />
+                <ScalarProperty Name="Column20" ColumnName="Column20" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ODataSample2">
+            <EntityTypeMapping TypeName="a1.db.RTModel.ODataSample2">
+              <MappingFragment StoreEntitySet="ODataSample2">
+                <ScalarProperty Name="ODataSample2Id" ColumnName="ODataSample2Id" />
+                <ScalarProperty Name="Column1" ColumnName="Column1" />
+                <ScalarProperty Name="Column2" ColumnName="Column2" />
+                <ScalarProperty Name="Column3" ColumnName="Column3" />
+                <ScalarProperty Name="Column4" ColumnName="Column4" />
+                <ScalarProperty Name="Column5" ColumnName="Column5" />
+                <ScalarProperty Name="Column6" ColumnName="Column6" />
+                <ScalarProperty Name="Column7" ColumnName="Column7" />
+                <ScalarProperty Name="Column8" ColumnName="Column8" />
+                <ScalarProperty Name="Column9" ColumnName="Column9" />
+                <ScalarProperty Name="Column10" ColumnName="Column10" />
+                <ScalarProperty Name="Column11" ColumnName="Column11" />
+                <ScalarProperty Name="Column12" ColumnName="Column12" />
+                <ScalarProperty Name="Column13" ColumnName="Column13" />
+                <ScalarProperty Name="Column14" ColumnName="Column14" />
+                <ScalarProperty Name="Column15" ColumnName="Column15" />
+                <ScalarProperty Name="Column16" ColumnName="Column16" />
+                <ScalarProperty Name="Column17" ColumnName="Column17" />
+                <ScalarProperty Name="Column18" ColumnName="Column18" />
+                <ScalarProperty Name="Column19" ColumnName="Column19" />
+                <ScalarProperty Name="Column20" ColumnName="Column20" />
+                <ScalarProperty Name="ODataSample1Id" ColumnName="ODataSample1Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ODataSample3">
+            <EntityTypeMapping TypeName="a1.db.RTModel.ODataSample3">
+              <MappingFragment StoreEntitySet="ODataSample3">
+                <ScalarProperty Name="ODataSample3Id" ColumnName="ODataSample3Id" />
+                <ScalarProperty Name="Column1" ColumnName="Column1" />
+                <ScalarProperty Name="Column2" ColumnName="Column2" />
+                <ScalarProperty Name="Column3" ColumnName="Column3" />
+                <ScalarProperty Name="Column4" ColumnName="Column4" />
+                <ScalarProperty Name="Column5" ColumnName="Column5" />
+                <ScalarProperty Name="Column6" ColumnName="Column6" />
+                <ScalarProperty Name="Column7" ColumnName="Column7" />
+                <ScalarProperty Name="Column8" ColumnName="Column8" />
+                <ScalarProperty Name="Column9" ColumnName="Column9" />
+                <ScalarProperty Name="Column10" ColumnName="Column10" />
+                <ScalarProperty Name="Column11" ColumnName="Column11" />
+                <ScalarProperty Name="Column12" ColumnName="Column12" />
+                <ScalarProperty Name="Column13" ColumnName="Column13" />
+                <ScalarProperty Name="Column14" ColumnName="Column14" />
+                <ScalarProperty Name="Column15" ColumnName="Column15" />
+                <ScalarProperty Name="Column16" ColumnName="Column16" />
+                <ScalarProperty Name="Column17" ColumnName="Column17" />
+                <ScalarProperty Name="Column18" ColumnName="Column18" />
+                <ScalarProperty Name="Column19" ColumnName="Column19" />
+                <ScalarProperty Name="Column20" ColumnName="Column20" />
+                <ScalarProperty Name="ODataSample2Id" ColumnName="ODataSample2Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ODataSample4">
+            <EntityTypeMapping TypeName="a1.db.RTModel.ODataSample4">
+              <MappingFragment StoreEntitySet="ODataSample4">
+                <ScalarProperty Name="ODataSample4Id" ColumnName="ODataSample4Id" />
+                <ScalarProperty Name="Column1" ColumnName="Column1" />
+                <ScalarProperty Name="Column2" ColumnName="Column2" />
+                <ScalarProperty Name="Column3" ColumnName="Column3" />
+                <ScalarProperty Name="Column4" ColumnName="Column4" />
+                <ScalarProperty Name="Column5" ColumnName="Column5" />
+                <ScalarProperty Name="Column6" ColumnName="Column6" />
+                <ScalarProperty Name="Column7" ColumnName="Column7" />
+                <ScalarProperty Name="Column8" ColumnName="Column8" />
+                <ScalarProperty Name="Column9" ColumnName="Column9" />
+                <ScalarProperty Name="Column10" ColumnName="Column10" />
+                <ScalarProperty Name="Column11" ColumnName="Column11" />
+                <ScalarProperty Name="Column12" ColumnName="Column12" />
+                <ScalarProperty Name="Column13" ColumnName="Column13" />
+                <ScalarProperty Name="Column14" ColumnName="Column14" />
+                <ScalarProperty Name="Column15" ColumnName="Column15" />
+                <ScalarProperty Name="Column16" ColumnName="Column16" />
+                <ScalarProperty Name="Column17" ColumnName="Column17" />
+                <ScalarProperty Name="Column18" ColumnName="Column18" />
+                <ScalarProperty Name="Column19" ColumnName="Column19" />
+                <ScalarProperty Name="Column20" ColumnName="Column20" />
+                <ScalarProperty Name="ODataSample3Id" ColumnName="ODataSample3Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

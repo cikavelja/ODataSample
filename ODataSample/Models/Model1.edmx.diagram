@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="56c7ee1d72e94f6bad29fe3d27c24f6c" Name="Diagram1">
+        <EntityTypeShape EntityType="a1.db.RTModel.ODataSample1" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="a1.db.RTModel.ODataSample2" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="a1.db.RTModel.ODataSample3" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="a1.db.RTModel.ODataSample4" Width="1.5" PointX="7.5" PointY="1.25" IsExpanded="true" />
+        <AssociationConnector Association="a1.db.RTModel.FK_dbo_ODataSample2_dbo_ODataSample1_ODataSample1Id" ManuallyRouted="false" />
+        <AssociationConnector Association="a1.db.RTModel.FK_dbo_ODataSample3_dbo_ODataSample2_ODataSample2Id" ManuallyRouted="false" />
+        <AssociationConnector Association="a1.db.RTModel.FK_dbo_ODataSample4_dbo_ODataSample3_ODataSample3Id" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
